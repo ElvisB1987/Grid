@@ -46,9 +46,7 @@ body {
   background-color: var(--Very-dark-grayish-blue);
   color: var(--White);
 }
-#box-2> img::after {
-   border-color: var(--Moderate-violet);
-  }
+
 #box-4 {
   background-color: var(--Very-dark-blackish-blue);
   grid-column: 2/4;
