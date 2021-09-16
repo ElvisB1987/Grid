@@ -18,10 +18,11 @@ body {
 /* -------------CONTAINER----------------- */
 
 .grid {
+    width: 70vw;
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(2, 1fr);
-  margin:200px;
+margin: 140px auto;
   overflow: hidden;
 }
 
