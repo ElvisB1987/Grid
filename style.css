@@ -21,7 +21,8 @@ body {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(2, 1fr);
-  margin: 115px;
+  margin:200px;
+  overflow: hidden;
 }
 
 /* ---------------BOXES----------------------- */
@@ -38,7 +39,7 @@ body {
 }
 
 .boxes:nth-child(2n) {
-  background-color: var(--Very-dark-grayish-blue);
+  background-color: var(--Very-dark-blackish-blue);
   color: var(--White);
 }
 
@@ -59,6 +60,14 @@ body {
 
 /* ---------------IMAGES----------------------- */
 
+#patrick {
+    border-radius: 50%;
+    position: relative;
+    border-style: solid;
+    border-color: hsl(263deg 55% 52%);
+    border-width: thin;
+}
+
 .boxes > img {
   border-radius: 50%;
   position: relative;
@@ -76,16 +85,16 @@ body {
 }
 h3 {
   color: var(--Light-gray);
+  padding: 10px;
 }
 label {
-  margin-top: -18px;
-  color: var(--Light-gray);
-  opacity: 50%;
-}
-
-p {
-  color: var(--Light-gray);
+  margin-top: -29px;
+  color: var(--Very-dark-grayish-blue);
   opacity: 70%;
+  margin-left: 10px;
+}
+p{
+    opacity: 70%;
 }
 
 @media screen and (max-width: 414px) {
