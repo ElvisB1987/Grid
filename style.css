@@ -18,11 +18,11 @@ body {
 /* -------------CONTAINER----------------- */
 
 .grid {
-    width: 70vw;
+  width: 70vw;
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(2, 1fr);
-margin: 140px auto;
+  margin: 140px auto;
   overflow: hidden;
 }
 
@@ -62,11 +62,11 @@ margin: 140px auto;
 /* ---------------IMAGES----------------------- */
 
 #patrick {
-    border-radius: 50%;
-    position: relative;
-    border-style: solid;
-    border-color: hsl(263deg 55% 52%);
-    border-width: thin;
+  border-radius: 50%;
+  position: relative;
+  border-style: solid;
+  border-color: hsl(263deg 55% 52%);
+  border-width: thin;
 }
 
 .boxes > img {
@@ -94,14 +94,14 @@ label {
   opacity: 70%;
   margin-left: 10px;
 }
-p{
-    opacity: 70%;
+p {
+  opacity: 70%;
 }
 
 @media screen and (max-width: 414px) {
   .grid {
-    top: 20px;
-    margin: 20px;
+    width: 90vw;
+    margin: 20px auto;
     grid-template-columns: repeat(1, 1fr);
   }
 }
